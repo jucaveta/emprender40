@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Revisa tu correo — Mente Estratégica Pro</title>
+  <title>Descarga tu miniguía — Mente Estratégica Pro</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1b2a;color:#fff;min-height:100vh;display:flex;flex-direction:column}
@@ -21,9 +21,15 @@
     .step:last-child{margin-bottom:0}
     .step-num{background:#ff6a2b;color:#fff;font-weight:800;font-size:12px;width:24px;height:24px;border-radius:999px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
     .step p{font-size:14px;color:rgba(255,255,255,.8);line-height:1.5}
-    .divider{font-size:13px;color:rgba(255,255,255,.4);margin-bottom:20px}
-    .btn-primary{display:inline-block;background:#ff6a2b;color:#fff;text-decoration:none;font-weight:800;font-size:16px;padding:16px 32px;border-radius:12px;margin-bottom:16px;transition:opacity .2s}
-    .btn-primary:hover{opacity:.88}
+    .btn-download{
+      display:inline-block;background:#ff6a2b;color:#fff;text-decoration:none;
+      font-weight:800;font-size:17px;padding:18px 36px;border-radius:14px;
+      margin-bottom:10px;transition:opacity .2s;width:100%;
+    }
+    .btn-download:hover{opacity:.88}
+    .divider{font-size:13px;color:rgba(255,255,255,.4);margin:28px 0 20px}
+    .btn-secondary{display:inline-block;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:#fff;text-decoration:none;font-weight:800;font-size:15px;padding:14px 28px;border-radius:12px;margin-bottom:12px;transition:opacity .2s;width:100%}
+    .btn-secondary:hover{opacity:.85}
     .price-note{font-size:13px;color:rgba(255,255,255,.45)}
     footer{border-top:1px solid rgba(255,255,255,.07);padding:20px 24px;text-align:center;font-size:12px;color:rgba(255,255,255,.3)}
     footer a{color:rgba(255,255,255,.4);text-decoration:none}
@@ -37,28 +43,32 @@
 
 <div class="main">
   <div class="card">
-    <div class="icon">📩</div>
-    <h1>Revisa tu <span>correo</span></h1>
-    <p class="sub">Te enviamos la guía gratuita <strong>"5 Vehículos de Ingresos Extra"</strong>.<br/>Revisa también la carpeta de spam si no aparece en los próximos minutos.</p>
+    <div class="icon">🎯</div>
+    <h1>Tu miniguía está <span>lista</span></h1>
+    <p class="sub">Descarga ahora los <strong>5 Vehículos de Ingresos Extra</strong> y elige tu punto de arranque en los próximos 90 días.</p>
+
+    <a class="btn-download" href="/miniguia_5_vehiculos.pdf" download>
+      ⬇ Descargar miniguía gratuita →
+    </a>
 
     <div class="steps">
       <div class="step">
         <div class="step-num">1</div>
-        <p>Abre el email de <strong>Mente Estratégica Pro</strong> en tu bandeja de entrada</p>
+        <p>Descarga el PDF con el botón de arriba</p>
       </div>
       <div class="step">
         <div class="step-num">2</div>
-        <p>Descarga el PDF adjunto con los 5 vehículos de ingresos</p>
+        <p>Lee la tabla comparativa y responde las 3 preguntas del ejercicio final</p>
       </div>
       <div class="step">
         <div class="step-num">3</div>
-        <p>Aplica el ejercicio de la última página para elegir tu vehículo de arranque</p>
+        <p>Elige tu vehículo de arranque — y si quieres el sistema completo, el ebook te da los 4 pasos siguientes</p>
       </div>
     </div>
 
     <p class="divider">— ¿Quieres el sistema completo? —</p>
 
-    <a class="btn-primary" href="https://www.etsy.com/es/listing/4463677525/emprender-despues-de-los-40-o-guia" target="_blank" rel="noreferrer">
+    <a class="btn-secondary" href="https://www.etsy.com/es/listing/4463677525/emprender-despues-de-los-40-o-guia" target="_blank" rel="noreferrer">
       Ver guía completa — USD 17 →
     </a>
     <p class="price-note">PDF · 29 páginas · 11 capítulos · Descarga inmediata</p>
